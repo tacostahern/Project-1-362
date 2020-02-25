@@ -1,0 +1,53 @@
+body {
+  background: #121212;
+  text-align: center;
+}
+
+h1 {
+  color: white;
+}
+
+label {
+  color: white;
+  font-size: 2em;
+}
+
+input {
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  background-color: #C0C0C0;
+  transition: width 0.4s ease-in-out;
+}
+
+input:focus {
+    width: 100%;
+  }
+
+input[type=submit] {
+  width: 20%;
+}
+
+@media only screen and (min-width: 480px) {
+  input {
+    width: 70%;
+    border:2px solid #0040FF;
+  }
+  
+  input:focus {
+    width: 70%;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  input {
+    width: 50%;
+    border:2px solid #C040FF;
+  }
+  
+  input:focus {
+    width: 50%;
+  }
+}
