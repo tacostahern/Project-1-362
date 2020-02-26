@@ -5,11 +5,13 @@ body {
 
 h1, p {
   color: white;
+  margin-top: 5px;
 }
 
 h2 {
   color: white;
   font-size: 1.5em;
+  padding: 5px 5px;
 }
 
 label {
@@ -18,7 +20,7 @@ label {
 }
 
 input {
-  width: 100%;
+  width: 90%;
   padding: 12px 20px;
   margin: 8px 0;
   box-sizing: border-box;
@@ -85,6 +87,14 @@ input[type=checkbox] {
     position: absolute;
     right: 150px;
     font-size: 3em;
+    height: 400px;
+    width: 400px;
+  }
+  
+  #Inspirational_quote2 {
+    position: absolute;
+    left: 150px;
+    font-size: 2em;
     height: 400px;
     width: 400px;
   }
