@@ -4,7 +4,7 @@ function init(){
   var button = document.getElementById("entrybutton");
   button.addEventListener("click", function()
   {
-    alert("Congratulations, You are Registered!");
+    alert("Congratulations, You are Registered! You will receive an email regarding the next steps shortly");
   });
 }
 window.addEventListener('load', init);
