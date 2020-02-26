@@ -83,7 +83,7 @@ input[type=checkbox] {
   }
   
   input[type=checkbox]:focus {
-    width:none;
+    width: 0;
   }
 }
 
@@ -126,7 +126,7 @@ input[type=checkbox] {
   }
   
   input[type=checkbox]:focus {
-    width:none;
+    width: 0;
   }
   
   input[type=submit]:focus {
